@@ -1,11 +1,11 @@
 import React from "react";
-import logo from "../assets/coak.gif";
+import logo from "../assets/logo.webp";
 
 const Hero = () => {
   return (
     <section
       id="hero"
-      className="pt-48 pb-28 w-full h-screen flex justify-center items-center"
+      className=" py-28 w-full h-screen flex justify-center items-center"
     >
       <div className="container flex justify-center  items-center flex-col">
         <h1 className="text-6xl text-white  md:text-9xl capitalize text-center">
