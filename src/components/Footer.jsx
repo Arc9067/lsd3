@@ -8,7 +8,7 @@ const Footer = () => {
         <img src={logo} alt="" className="w-24" />
         <div className="flex items-center gap-6 flex-wrap">
           <a
-            href=""
+            href="https://t.me/LSDork"
             className="uppercase font-bold bg-white text-black py-2 px-4 rounded-lg border-2 border-black"
           >
             join telegram
