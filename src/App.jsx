@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import About from "./components/About";
@@ -7,18 +7,60 @@ import Footer from "./components/Footer";
 import Buy from "./components/Buy";
 
 const App = () => {
+  const [hide, setHide] = useState(false);
+  useEffect(() => {
+    document.querySelectorAll(".yes").forEach((ele) => {
+      ele.addEventListener("click", () => {
+        const audio = new Audio("/audio.mp3");
+        audio.play();
+        setHide(true);
+      });
+    });
+  }, []);
+
   return (
-    <div
-      id="parent"
-      className="min-h-screen w-full relative bg-black text-white font-comicNeue shake"
-    >
-      <Header />
-      <Hero />
-      <About />
-      <Mics />
-      <Buy />
-      <Footer />
-    </div>
+    <>
+      {" "}
+      <section
+        id="player"
+        className={`h-screen ${
+          hide ? "hidden" : "block"
+        } font-comicNeue scale w-full fixed top-0 z-50 left-0 bg-black bg-opacity-30 flex justify-center items-center`}
+      >
+        <div className="container  w-full flex justify-center items-center">
+          <article
+            className="p-10 gap-5 text-white rounded-md flex flex-col justify-center items-center bg-black border-2 border-white w-max
+          "
+          >
+            <h1 className="text-3xl text-center">
+              ARE YOU READY FOR THE WILDEST LSD TRIP?!
+            </h1>
+            <div className="flex items-center gap-6 flex-wrap">
+              <button className="uppercase yes font-bold bg-[#0000ff] text-white py-2 px-8 rounded-lg border-2 border-white">
+                yes
+              </button>
+              <button
+                href=""
+                className="uppercase yes font-bold bg-[#ff0000] text-black py-2 px-8 rounded-lg border-2 border-white"
+              >
+                yes
+              </button>
+            </div>
+          </article>
+        </div>
+      </section>
+      <div
+        id="parent"
+        className="min-h-screen w-full relative bg-black text-white font-comicNeue shake"
+      >
+        <Header />
+        <Hero />
+        <About />
+        <Mics />
+        <Buy />
+        <Footer />
+      </div>
+    </>
   );
 };
 
