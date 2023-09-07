@@ -33,17 +33,17 @@ const App = () => {
           "
           >
             <h1 className="text-3xl text-center">
-              ARE YOU READY FOR THE WILDEST LSD TRIP?!
+              YOU’VE BEEN INVITED ACCEPT YOUR INVITATION
             </h1>
-            <div className="flex items-center gap-6 flex-wrap">
+            <div className="flex items-center gap-6 flex-wrap justify-center items-center">
               <button className="uppercase yes font-bold bg-[#0000ff] text-white py-2 px-8 rounded-lg border-2 border-white">
-                yes
+                ACCEPT
               </button>
               <button
                 href=""
                 className="uppercase yes font-bold bg-[#ff0000] text-black py-2 px-8 rounded-lg border-2 border-white"
               >
-                yes
+                DECLINE
               </button>
             </div>
           </article>
