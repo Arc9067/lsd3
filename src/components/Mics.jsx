@@ -4,7 +4,7 @@ const Mics = () => {
   return (
     <section className="py-16">
       <div className="container w-full flex flex-col justify-center items-center ">
-        <img src={emoji} alt="" className="w-10 animate-bounce" />
+        <img src={emoji} alt="" className="w- animate-bounce" />
         <h1 className="text-5xl md:text-5xl text-center text-white font-bold  capitalize">
           Tokenomics Of LSD Dork{" "}
         </h1>

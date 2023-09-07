@@ -13,7 +13,7 @@ const Header = () => {
          font-medium"
         >
           <img src={logo} alt="" className="w-14" />
-          lsd toad
+          lsd dork
         </a>
       </nav>
     </header>
