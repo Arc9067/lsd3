@@ -6,7 +6,7 @@ const Buy = () => {
     <section className="py-16">
       <div className="container grid grid-cols-1 lg:grid-cols-2 justify-between items-center w-full gap-16">
         <article className="flex flex-col gap-5 justify-center items-center lg:justify-start lg:items-start">
-          <img src={buy} alt="" className="scale" />
+          <img src={buy} alt="" className="w-[80%]" />
           <h1 className="text-4xl md:text-5xl text-white font-bold  capitalize animate-pulse">
             How to
           </h1>

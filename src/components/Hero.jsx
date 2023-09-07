@@ -14,7 +14,7 @@ const Hero = () => {
         <p className="text-3xl text-center">
           xxxKingPinDorkLordxxx entered the chat
         </p>
-        <img src={logo} alt="" />
+        <img src={logo} alt="" className="w-[50%]" />
 
         <div className="flex items-center gap-6 flex-wrap">
           <a
