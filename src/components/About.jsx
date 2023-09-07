@@ -8,11 +8,11 @@ const About = () => {
         <img src={logo} alt="" className="mx-auto lg:mx-0" />
         <article className="flex flex-col gap-5">
           <h1 className="text-5xl md:text-5xl text-white font-bold  capitalize">
-            about lsd toad
+            About LSD Dork
           </h1>
           <p>
-            aCiD MAAkes MY SOUL fEeL ALivEEEEE LSDTOAD to ThE MEwN iM TRIPPINNN
-            buT PiMPin BabYyy LFGGGGGG
+            LicK mY BaCk aKa My AciDdd SacK wE FlyiN HIGHHH tO ThE MeWn BabyYyy
+            LFGGGG
           </p>
 
           <div className="flex items-center gap-6 flex-wrap">

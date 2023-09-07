@@ -9,10 +9,10 @@ const Hero = () => {
     >
       <div className="container flex justify-center  items-center flex-col">
         <h1 className="text-6xl text-white  md:text-9xl capitalize text-center">
-          meet lsd toad
+          Meet LSD Dork{" "}
         </h1>
         <p className="text-3xl text-center">
-          xxxDrugLordToadxxx entered the chat{" "}
+          xxxKingPinDorkLordxxx entered the chat
         </p>
         <img src={logo} alt="" />
 
