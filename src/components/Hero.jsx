@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <section
       id="hero"
-      className=" py-28 w-full h-screen flex justify-center items-center"
+      className=" py-36 w-full h-screen flex justify-center items-center"
     >
       <div className="container flex justify-center  items-center flex-col">
         <h1 className="text-6xl text-white  md:text-9xl capitalize text-center">
@@ -14,7 +14,7 @@ const Hero = () => {
         <p className="text-3xl text-center">
           xxxKingPinDorkLordxxx entered the chat
         </p>
-        <img src={logo} alt="" className="w-[50%]" />
+        <img src={logo} alt="" className="lg:w-[50%]" />
 
         <div className="flex items-center gap-6 flex-wrap">
           <a
@@ -24,7 +24,7 @@ const Hero = () => {
             join telegram
           </a>
           <a
-            href=""
+            href="https://twitter.com/LSDorkETH"
             className="uppercase font-bold bg-white text-black py-2 px-4 rounded-lg border-2 border-black"
           >
             follow twitter
